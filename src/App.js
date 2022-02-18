@@ -16,7 +16,7 @@ function App() {
         <MainSideBar />
         
         <div className="right">
-          {/* <HomeDashBoard /> */}
+          <HomeDashBoard />
           
         </div>
         
