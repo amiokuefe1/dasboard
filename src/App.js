@@ -4,6 +4,7 @@ import MainSideBar from "./components/mainSideBar/MainSideBar";
 import HomeDashBoard from "./components/homeDashBoard/HomeDashBoard";
 import "./app.css"
 import ActiveUserDetails from "./components/homeDashBoard/activeUserDetails/ActiveUserDetails";
+import MembersTransactions from "./components/homeDashBoard/membersTransactionsComponent/MembersTransactions";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <div className="right">
           <HomeDashBoard />
           <ActiveUserDetails/>
+          <MembersTransactions/>
           
         </div>
         

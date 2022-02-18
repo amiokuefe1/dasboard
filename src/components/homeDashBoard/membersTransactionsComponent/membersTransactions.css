@@ -1,0 +1,64 @@
+.membersTransactionsContainer{
+    display: flex;
+    
+}
+
+.membersTransactionsContainer > div{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newMembers{
+    flex: 3;
+    background-color: aqua;
+}
+
+.transactions{
+    margin-left: 20px;
+    flex: 5;
+    background-color: blueviolet;
+}
+
+.newMembers{
+
+}
+
+.newMembers > ul > li{
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.imageWidget{
+    /* position: absolute;
+    top: 6px; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.memberName{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.memberButton{
+    /* position: absolute;
+    top: 2px;
+    right:2px; */
+    display: flex;
+    
+    background-color: grey;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    
+    /* padding: 5px 12px; */
+}
