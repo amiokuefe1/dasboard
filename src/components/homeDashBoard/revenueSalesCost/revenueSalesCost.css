@@ -1,0 +1,52 @@
+.revenueSalesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.revenueSalesContainer > div{
+    padding: 15px;
+    width: 300px;
+    background-color: red;
+}
+
+.revenueSalesContainer > div::first-line{
+    font-weight: 600;
+    font-size: large;
+}
+
+.revenueSalesContainerItem > p {
+    position: relative;
+    padding: 10px 0px;
+    
+}
+
+.revenueSalesContainerItem > p> b{
+    color: brown;
+    font-size: 25px;   
+}
+
+.indexValue{
+    position:absolute;
+    padding:8px 12px 0px;
+    font-size: small;
+
+}
+
+.arrow{
+    position: absolute;
+    padding:8px 12px 0px;
+    left: 110px;
+}
+
+/* .footerNote{
+    color: black;
+} */
+
+.revenueSalesContainerItem:last-child{
+    font-size: 13px;
+    /* color: blue; */
+    
+}
