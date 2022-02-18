@@ -1,0 +1,36 @@
+.sideBarContainer{
+    flex:1;
+    background-color: red;
+    
+    height: calc(100vh);
+
+}
+
+.navItemContainer{
+padding: 7px 15px;
+}
+
+.navItemContainer::first-line{
+    font-size: 13px;
+    font-weight: bold;
+  color: rgb(187, 186, 186);
+}
+
+.navItemContainer > ul > li{
+    list-style: none;
+    position: relative;
+    padding: 5px 15px;
+}
+
+.navItemContainer > ul > li:first-of-type{
+    margin-top: 5px;
+   
+}
+
+.navItemContainer > ul > li > span{
+    position: absolute;
+    top: 5px;
+    left: -20px;
+
+    color:aqua;
+}
