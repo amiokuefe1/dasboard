@@ -1,0 +1,11 @@
+.activeUserDetailsContainer{
+    background-color: pink;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.activeUserDetailsContainer>span{
+    color: teal;
+    font-weight: bolder;
+    font-size: large;
+}

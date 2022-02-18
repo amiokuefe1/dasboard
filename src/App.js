@@ -3,6 +3,7 @@ import Topbar from "./components/topbar/Topbar";
 import MainSideBar from "./components/mainSideBar/MainSideBar";
 import HomeDashBoard from "./components/homeDashBoard/HomeDashBoard";
 import "./app.css"
+import ActiveUserDetails from "./components/homeDashBoard/activeUserDetails/ActiveUserDetails";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         
         <div className="right">
           <HomeDashBoard />
+          <ActiveUserDetails/>
           
         </div>
         
