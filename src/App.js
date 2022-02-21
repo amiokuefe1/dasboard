@@ -4,7 +4,8 @@ import MainSideBar from "./components/mainSideBar/MainSideBar";
 import HomeDashBoard from "./components/homeDashBoard/HomeDashBoard";
 import "./App.css"
 import ActiveUserDetails from "./components/homeDashBoard/activeUserDetails/ActiveUserDetails";
-import MembersTransactions from "./components/homeDashBoard/membersTransactionsComponent/MembersTransactions";
+import MembersPanel from "./components/homeDashBoard/membersTransactionsComponent/membersPanel/MembersPanel";
+import TransactionPanel from "./components/homeDashBoard/membersTransactionsComponent/transactionPanel/TransactionPanel";
 
 function App() {
   return (
@@ -20,7 +21,11 @@ function App() {
         <div className="right">
           <HomeDashBoard />
           <ActiveUserDetails/>
-          <MembersTransactions/>
+          <div className="userTransact">
+            <MembersPanel/>
+            <TransactionPanel />
+          </div>
+          
           
         </div>
         

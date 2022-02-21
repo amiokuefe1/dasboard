@@ -1,0 +1,14 @@
+.transactionsContainer{
+    flex: 2; 
+}
+
+.transactionsContainer > table{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-right: 20px;
+    width: 100%;
+    background-color: blueviolet;
+    text-align: left;
+}

@@ -1,10 +1,10 @@
 import React from 'react'
-import './membersTransactions.css'
+import './MembersPanel.css'
 import {Visibility} from '@mui/icons-material'
 
 function MembersTransactions() {
   return (
-    <div className='membersTransactionsContainer'>
+    <div className='membersContainer'>
        
         <div className='newMembers'>
             <span>
@@ -37,9 +37,7 @@ function MembersTransactions() {
             </ul>                    
         </div>
 
-        <div className='transactions'>
-            David
-        </div>
+        
     </div>
   )
 }
