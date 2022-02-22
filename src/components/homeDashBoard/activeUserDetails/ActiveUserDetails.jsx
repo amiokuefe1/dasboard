@@ -24,7 +24,7 @@ function ActiveUserDetails() {
     <div className='activeUserDetailsContainer'>
         <span>Active User Details</span>
 
-        <div className=''>
+        <div className='spreadOut'>
             {renderLineChart}
         </div>
         
