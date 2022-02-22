@@ -7,15 +7,26 @@ function MembersTransactions() {
     <div className='membersContainer'>
        
         <div className='newMembers'>
-            <span>
+            <span className='newMembersTitle'>
                 New Join Members
             </span>
             <ul>
                 <li>
                     <img className='imageWidget' src="/images/efe1.jpg"/>
                     <div className='memberName'>
-                        <span>Anna Keller</span>
-                        <span>Software Engineer</span>
+                        <span className='memberUsername'>Anna Keller</span>
+                        <span className='memberPosition'>Software Engineer</span>
+                    </div>
+                    <button className='memberButton'>
+                        <Visibility/>
+                        Display
+                    </button>
+                </li>
+                <li>
+                    <img className='imageWidget' src="/images/efe1.jpg"/>
+                    <div className='memberName'>
+                        <span className='memberUsername'>Anna Keller</span>
+                        <span className='memberPosition'>Software Engineer</span>
                     </div>
                     <button className='memberButton'>
                         <Visibility/>
@@ -23,17 +34,7 @@ function MembersTransactions() {
                     </button>
                 </li>
 
-                <li>
-                    <img className='imageWidget' src="/images/efe1.jpg"/>
-                    <div className='memberName'>
-                        <span>Anna Keller</span>
-                        <span>Software Engineer</span>
-                    </div>
-                    <button className='memberButton'>
-                        <Visibility/>
-                        Display
-                    </button>
-                </li>
+                
             </ul>                    
         </div>
 

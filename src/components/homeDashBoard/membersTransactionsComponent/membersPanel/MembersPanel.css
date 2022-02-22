@@ -8,12 +8,17 @@
     justify-content: space-between;
     align-items: center;
     margin-right: 20px;
-    padding: 0%;
+    padding: 20px;
 }
 
 .newMembers{
     flex: 3;
     background-color: aqua;
+}
+
+.newMembersTitle{
+    font-size: 22px;
+    font-weight: 600;
 }
 
 
@@ -24,16 +29,19 @@
 }
 
 
-.newMembers > ul > li{
+.newMembers > ul{
+    margin: 0;
+    padding: 0;
     list-style: none;
-    
+
+}
+
+.newMembers > ul > li{ 
     display: flex;
     justify-content: space-between;
     align-items:center;
     margin: 20px 0px;
     background-color: teal;
-
-
 }
 
 .imageWidget{
@@ -52,6 +60,13 @@
     flex-wrap: wrap;
 }
 
+.memberUsername{
+    font-weight: 600;
+}
+
+.memberPosition{
+    font-weight: 300;
+}
 .memberButton{
     /* position: absolute;
     top: 2px;
