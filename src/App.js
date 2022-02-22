@@ -5,6 +5,13 @@ import MainSideBar from "./components/mainSideBar/MainSideBar";
 import HomeDashBoard from "./pages/homeDashBoard/HomeDashBoard"
 import "./App.css"
 
+import newProduct from './pages/newProduct/NewProduct'
+import newUser from './pages/newUser/NewUser'
+import product from './pages/product/Product'
+import productList from './pages/productList/ProductList'
+import user from './pages/user/User'
+import usersList from './pages/usersList/UsersList'
+
 
 function App() {
   return (
@@ -16,8 +23,6 @@ function App() {
         
         <div className="right">
           <HomeDashBoard />
-          
-          
         </div>
         
       </div>
