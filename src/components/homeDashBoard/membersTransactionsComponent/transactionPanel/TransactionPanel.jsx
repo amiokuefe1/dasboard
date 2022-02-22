@@ -16,6 +16,8 @@ function TransactionPanel() {
   return (
     <div className='transactionsContainer'>
         {/* TransactionPanel */}
+        <span className='transactionTitle'>Latest Transactions</span>
+        
         <table className='transactionTable'>
                 <tr>
                     <th>Customer</th>
@@ -23,15 +25,15 @@ function TransactionPanel() {
                     <th>Amount</th>
                     <th>Status</th>
                 </tr>
-                <tr style={{color:'red'}}>
-                    <td>
-                        <img/>
+                <tr>
+                    <td className='transactionUser'>
+                        <img className='transactionImg' src="/images/efe1.jpg"/>
                         <span>Susan Carlson</span>
                     </td>
-                    <td>
+                    <td className='transactionDate'>
                         23 May 2021
                     </td>
-                    <td>
+                    <td className='transactionAmount'>
                         $122.00
                     </td>
                     <td>
