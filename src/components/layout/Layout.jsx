@@ -2,7 +2,7 @@ import React from 'react'
 import Topbar from '../topbar/Topbar'
 import MainSideBar from '../mainSideBar/MainSideBar'
 
-import { BrowserRouter as Switch, Router, Routes, Route, Link, Outlet } from "react-router-dom";
+import { BrowserRouter as Switch,  Outlet } from "react-router-dom";
 
 function Layout() {
   return (

@@ -6,6 +6,9 @@ import MainSideBar from "./components/mainSideBar/MainSideBar";
 
 import HomeDashBoard from "./pages/homeDashBoard/HomeDashBoard"
 
+import Invoice from "./pages/invoicesDir/Invoice";
+import Invoices from "./pages/invoicesDir/Invoices";
+
 import "./App.css"
 
 
@@ -22,10 +25,22 @@ function App() {
   return (
     <>
        <Routes>
-        <Route path='/home' element={<Layout />} >
+        <Route path='/' element={<Layout />} >
           <Route path='newproduct' element={<NewProduct/>} />
+          <Route path="invoices" element={<Invoices />}>
+            <Route path=":invoiceId" element={<Invoice />} />
+          </Route>
+
           {/* <Route path='product' element={<Product />} /> */}
         </Route>
+        <Route
+          path="*"
+          element={
+            <main style={{ padding: '1rem' }}>
+              <p>There's nothing here!</p>
+            </main>
+          }
+        />
       </Routes> 
        
     </>

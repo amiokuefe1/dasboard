@@ -11,8 +11,8 @@ function MainSideBar() {
             Dashboard
             <ul>
                 <li> <span><Home/></span>Home</li>
-                <li><span><Timeline/></span>Analytics</li>
-                <li><span><TrendingUp/></span><Link to={'/home/newproduct'}>Sales</Link></li>
+                <li><span><Timeline/></span><Link to={'/invoices'}>Invoices</Link></li>
+                <li><span><TrendingUp/></span><Link to={'/newproduct'}>Sales</Link></li>
             </ul>
         </div>
 
