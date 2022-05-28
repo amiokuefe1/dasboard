@@ -1,6 +1,7 @@
 import React from "react";
 import './MainSideBar.css';
 import {Home, Timeline, TrendingUp} from '@mui/icons-material';
+import { BrowserRouter as Switch, Router, Routes, Route, Link } from "react-router-dom";
 
 function MainSideBar() {
   return (
@@ -11,7 +12,7 @@ function MainSideBar() {
             <ul>
                 <li> <span><Home/></span>Home</li>
                 <li><span><Timeline/></span>Analytics</li>
-                <li><span><TrendingUp/></span>Sales</li>
+                <li><span><TrendingUp/></span><Link to={'/home/newproduct'}>Sales</Link></li>
             </ul>
         </div>
 
