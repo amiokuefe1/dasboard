@@ -28,6 +28,14 @@ function App() {
         <Route path='/' element={<Layout />} >
           <Route path='newproduct' element={<NewProduct/>} />
           <Route path="invoices" element={<Invoices />}>
+            <Route
+              index
+              element={
+                <main style={{ padding: "1rem" }}>
+                  <p>Select an invoice</p>
+                </main>
+              }
+            />
             <Route path=":invoiceId" element={<Invoice />} />
           </Route>
 
