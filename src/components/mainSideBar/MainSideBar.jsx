@@ -3,6 +3,8 @@ import './MainSideBar.css';
 import {Home, Timeline, TrendingUp} from '@mui/icons-material';
 import { BrowserRouter as Switch, Router, Routes, Route, Link } from "react-router-dom";
 
+import BrandLink from "../../util/BrandLink";
+
 function MainSideBar() {
   return (
     <div className="sideBarContainer">
@@ -19,8 +21,8 @@ function MainSideBar() {
         <div className="navItemContainer">
             Quick Menu
             <ul>
-                <li> <span><Home/></span>User</li>
-                <li><span><Timeline/></span>Products</li>
+                <li> <span><Home/></span><BrandLink to="/shoes?brand=nike">Nike</BrandLink></li>
+                <li><span><Timeline/></span><BrandLink to="/shoes?brand=vans">Vans</BrandLink></li>
                 <li><span><TrendingUp/></span>Transactions</li>
                 <li><span><TrendingUp/></span>Reports</li>
             </ul>

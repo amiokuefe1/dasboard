@@ -21,6 +21,8 @@ import UserList from './pages/usersList/UsersList'
 import Layout from "./components/layout/Layout";
 
 
+
+
 function App() {
   return (
     <>
@@ -38,6 +40,8 @@ function App() {
             />
             <Route path=":invoiceId" element={<Invoice />} />
           </Route>
+
+          <Route path='shoes' element={<Product/>} />
 
           {/* <Route path='product' element={<Product />} /> */}
         </Route>
